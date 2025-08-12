@@ -1,0 +1,51 @@
+<resources>
+        <string name="app_name">Destinasi Pariwisata</string>
+        <string name="title_activity_main">Destinasi Wisata Indonesia</string>
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+        <string name="nav_header_title">Destinasi Wisata</string>
+        <string name="nav_header_subtitle">Jelajahi Indonesia</string>
+        <string name="nav_header_desc">Navigation header</string>
+        <string name="action_settings">Settings</string>
+
+        <string name="menu_home">Home</string>
+        <string name="menu_gallery">Gallery</string>
+        <string name="menu_slideshow">Slideshow</string>
+
+        <!-- Form strings -->
+        <string name="hint_nama_destinasi">Nama Destinasi</string>
+        <string name="hint_lokasi">Lokasi</string>
+        <string name="hint_deskripsi">Deskripsi</string>
+        <string name="hint_harga">Harga Tiket (Rupiah)</string>
+        <string name="label_rating">Rating Destinasi</string>
+        <string name="label_kategori">Kategori Destinasi</string>
+
+        <!-- Button strings -->
+        <string name="btn_simpan">Simpan</string>
+        <string name="btn_update">Update</string>
+        <string name="btn_batal">Batal</string>
+        <string name="btn_delete">Delete</string>
+        <string name="btn_edit">Edit</string>
+        <string name="btn_detail">Detail</string>
+
+        <!-- Message strings -->
+        <string name="msg_data_saved">Data berhasil disimpan</string>
+        <string name="msg_data_updated">Data berhasil diupdate</string>
+        <string name="msg_data_deleted">Data berhasil dihapus</string>
+        <string name="msg_error">Terjadi kesalahan</string>
+        <string name="msg_empty_field">Field tidak boleh kosong</string>
+        <string name="msg_confirm_delete">Yakin ingin menghapus data ini?</string>
+
+        <!-- Categories -->
+        <string-array name="kategori_destinasi">
+            <item>Pantai</item>
+            <item>Gunung</item>
+            <item>Air Terjun</item>
+            <item>Danau</item>
+            <item>Candi</item>
+            <item>Museum</item>
+            <item>Taman Nasional</item>
+            <item>Kota Wisata</item>
+            <item>Lainnya</item>
+        </string-array>
+    </resources>

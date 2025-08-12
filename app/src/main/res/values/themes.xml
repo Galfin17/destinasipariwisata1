@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Destinasipariwisata1" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Customize your primary colors here for Material 3 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.Destinasipariwisata1" parent="Base.Theme.Destinasipariwisata1" />
+
+    <!-- Style untuk AppBarLayout (diperlukan untuk android:theme) -->
+    <!-- Menggunakan parent dari MaterialComponents karena lebih kompatibel untuk Overlay -->
+    <style name="Theme.DestinasiPariwisata1.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <!-- Style untuk Popup (menu) di Toolbar (diperlukan untuk app:popupTheme) -->
+    <style name="Theme.DestinasiPariwisata1.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+</resources>
